@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox and CSS Grid Example</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+      }
+
+      header {
+        background-color: #4caf50;
+        color: white;
+        padding: 1rem;
+        text-align: center;
+      }
+
+      .container {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 2rem;
+        padding: 2rem;
+        flex: 1;
+      }
+
+      .sidebar {
+        background-color: #f4f4f4;
+        padding: 1rem;
+      }
+
+      .main-content {
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        padding: 1rem;
+        border: 1px solid #ddd;
+      }
+
+      .main-content > div {
+        margin-bottom: 1rem;
+      }
+
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Header</header>
+
+    <div class="container">
+      <aside class="sidebar">Sidebar</aside>
+      <main class="main-content">
+        <div>Main Content Section 1</div>
+        <div>Main Content Section 2</div>
+        <div>Main Content Section 3</div>
+      </main>
+    </div>
+
+    <footer>Footer</footer>
+  </body>
+</html>

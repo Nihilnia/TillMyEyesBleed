@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #0c0c0d;
+}
+
+#grid-container {
+  padding: 0;
+}
+
+div {
+  height: 100px;
+}
+
+section > div:nth-child(1) {
+  background-color: red;
+}
+section > div:nth-child(2) {
+  background-color: yellow;
+}
+section > div:nth-child(3) {
+  background-color: blue;
+}
+section > div:nth-child(4) {
+  background-color: green;
+}
