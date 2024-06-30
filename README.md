@@ -1,1 +1,9 @@
-# TillMyEyesBleed
+# Coding Journal
+"Have you ever felt like, <br/> 'This is it, this is the project of a lifetime, I was made for this task'?<br/>
+No?"
+
+## Daily Entries
+
+| Date       | Day | Title | Folders | Goal | Result
+|------------|--------------|--------------|------------|------------|------------|
+| [30/6/24](URL)     | *O* | *Eximus* |- CSSGrid <br> - BootstrapGrid <br> - def <br> - flexboxgpt  | *Understanding Bootstrap responsive grid, <br/> comparin' with CSS grid.* | I' ll stick with CSS grid.
