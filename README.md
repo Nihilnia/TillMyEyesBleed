@@ -4,6 +4,6 @@ No?"
 
 ## Daily Entries
 
-| Date       | Day | Title | Folders | Goal | Result
-|------------|--------------|--------------|------------|------------|------------|
-| [30/6/24](URL)     | *O* | *Eximus* |- CSSGrid <br> - BootstrapGrid <br> - def <br> - flexboxgpt  | *Understanding Bootstrap responsive grid, <br/> comparin' with CSS grid.* | I' ll stick with CSS grid.
+| Date       | Day | Title | Folders | Goal | Result | VOD
+|------------|--------------|--------------|------------|------------|------------|------------|
+| [30/6/24](URL)     | *O* | *Eximus* |- CSSGrid <br> - BootstrapGrid <br> - def <br> - flexboxgpt  | *Understanding Bootstrap responsive grid, <br/> comparin' with CSS grid.* | I' ll stick with CSS grid. | https://youtu.be/00I0gwTUBEk
