@@ -6,4 +6,4 @@ No?"
 
 | Date       | Day | Title | Folders | Goal | Result | VOD
 |------------|--------------|--------------|------------|------------|------------|------------|
-| [30/6/24](URL)     | *O* | *Eximus* | CSSGrid, BootstrapGrid, def, flexboxgpt  | *Understanding Bootstrap responsive grid, <br/> comparin' with CSS grid.* | I' ll stick with CSS grid. | https://youtu.be/00I0gwTUBEk
+| [30/6/24](URL)     | *O* | *Eximus* | CSSGrid, BootstrapGrid, def, flexboxgpt  | *Understanding Bootstrap responsive grid, <br/> comparin' with CSS grid.* | I' ll stick with CSS grid. | h
