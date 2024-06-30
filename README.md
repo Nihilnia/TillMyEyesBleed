@@ -5,5 +5,5 @@ No?"
 ## Daily Entries
 
 | Date       | Title | Folders | Goal | Result | VOD
-|------------|--------------|--------------|------------|------------|------------|------------|
+|------------|--------------|--------------|------------|------------|------------|
 | [30/6/24](URL)     | *Eximus* | CSSGrid, BootstrapGrid, def, flexboxgpt  | *Understanding Bootstrap responsive grid, <br/> comparin' with CSS grid.* | I' ll stick with CSS grid. | [Day 0](https://youtu.be/00I0gwTUBEk)
