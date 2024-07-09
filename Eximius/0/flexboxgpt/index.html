@@ -3,9 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
     <title>Flexbox and CSS Grid Example</title>
     <style>
       body {
+        background-color: #0c0c0d;
+        color: #fff;
+
         margin: 0;
         font-family: Arial, sans-serif;
         display: flex;
@@ -67,5 +72,11 @@
     </div>
 
     <footer>Footer</footer>
+
+    <script>
+      document.querySelector(".overview_header .done").forEach((el) => {
+        console.log(el.textContent);
+      });
+    </script>
   </body>
 </html>
