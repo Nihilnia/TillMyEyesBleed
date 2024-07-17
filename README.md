@@ -1,6 +1,14 @@
-<h1>Coding Journal</h1>
-<img align="center" src="https://github.com/Nihilnia/Nihilnia/blob/main/Gloria.gif" style=width:4444px;"/>
-<p align="center">"𝙷𝚊𝚟𝚎 𝚢𝚘𝚞 𝚎𝚟𝚎𝚛 𝚏𝚎𝚕𝚝 𝚕𝚒𝚔𝚎,<br/>'𝚃𝚑𝚒𝚜 𝚒𝚜 𝚒𝚝, 𝚝𝚑𝚒𝚜 𝚒𝚜 𝚝𝚑𝚎 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚘𝚏 𝚊 𝚕𝚒𝚏𝚎𝚝𝚒𝚖𝚎, 𝙸 𝚠𝚊𝚜 𝚖𝚊𝚍𝚎 𝚏𝚘𝚛 𝚝𝚑𝚒𝚜 𝚝𝚊𝚜𝚔'?<br/>𝙽𝚘?</p>
+# My Portfolio [![Live on Twitch](https://github.com/Nihilnia/GithubBadges/blob/main/Live%20on%20Twitch.svg)](https://twitch.tv/nihilCoding) [![VOD Archive](https://github.com/Nihilnia/GithubBadges/blob/main/Youtube%20VOD%20archive.svg)](https://www.youtube.com/playlist?list=PLCt04sG9v7tQ0dorKQz22icMxmWa-apq_)
+
+
+ <img src="https://github.com/Nihilnia/Nihilnia/blob/main/Gloria.gif" style="width:4444px;" alt="Gloria Gif"/>
+
+
+<p align="center">
+    "𝙷𝚊𝚟𝚎 𝚢𝚘𝚞 𝚎𝚟𝚎𝚛 𝚏𝚎𝚕𝚝 𝚕𝚒𝚔𝚎,<br/>
+    '𝚃𝚑𝚒𝚜 𝚒𝚜 𝚒𝚝, 𝚝𝚑𝚒𝚜 𝚒𝚜 𝚝𝚑𝚎 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚘𝚏 𝚊 𝚕𝚒𝚏𝚎𝚝𝚒𝚖𝚎, 𝙸 𝚠𝚊𝚜 𝚖𝚊𝚍𝚎 𝚏𝚘𝚛 𝚝𝚑𝚒𝚜 𝚝𝚊𝚜𝚔'?<br/>𝙽𝚘?
+</p>
+
 
 ## Daily Entries
 
