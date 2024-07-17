@@ -1,7 +1,7 @@
 # Programming Journal [![Live on Twitch](https://github.com/Nihilnia/GithubBadges/blob/main/Live%20on%20Twitch.svg)](https://twitch.tv/nihilCoding) [![VOD Archive](https://github.com/Nihilnia/GithubBadges/blob/main/Youtube%20VOD%20archive.svg)](https://www.youtube.com/playlist?list=PLCt04sG9v7tQ0dorKQz22icMxmWa-apq_)
 
 
- <img src="https://github.com/Nihilnia/Nihilnia/blob/main/Gloria.gif" style="width:4444px;" alt="Gloria Gif"/>
+ <img src="https://github.com/Nihilnia/TillMyEyesBleed/blob/main/Gloria.gif" style="width:4444px;" alt="Gloria Gif"/>
 
 
 <p align="center">
