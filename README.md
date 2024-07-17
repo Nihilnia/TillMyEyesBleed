@@ -1,15 +1,6 @@
 <h1>Coding Journal</h1>
-
-<table>
-  <tr>
-    <td>
-      <img align="center" src="https://github.com/Nihilnia/Nihilnia/blob/main/Gloria.gif" width="584px"/>
-    </td>
-    <td>
-      "Have you ever felt like, <br/> 'This is it, this is the project of a lifetime, <br/> I was made for this task'?<br/><br/> No?"
-    </td>
-  </tr>
-</table>
+<img align="center" src="https://github.com/Nihilnia/Nihilnia/blob/main/Gloria.gif" style="max-width:100%; height: 444px;"/>
+"Have you ever felt like, 'This is it, this is the project of a lifetime, I was made for this task'?<br/> No?
 
 
 
