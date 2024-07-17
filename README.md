@@ -1,8 +1,16 @@
-# Coding Journal
+<h1>Coding Journal</h1>
 
-|        |  |
-|------------|--------------|
-| <img align="center" src='https://github.com/Nihilnia/Nihilnia/blob/main/Gloria.gif' width = '584px'/> | "Have you ever felt like, <br/> 'This is it, this is the project of a lifetime, <br/> I was made for this task'?<br/><br/> No?" |
+<table>
+  <tr>
+    <td>
+      <img align="center" src="https://github.com/Nihilnia/Nihilnia/blob/main/Gloria.gif" width="584px"/>
+    </td>
+    <td>
+      "Have you ever felt like, <br/> 'This is it, this is the project of a lifetime, <br/> I was made for this task'?<br/><br/> No?"
+    </td>
+  </tr>
+</table>
+
 
 
 
