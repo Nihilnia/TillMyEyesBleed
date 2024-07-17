@@ -1,5 +1,5 @@
 <h1>Coding Journal</h1>
-<img align="center" src="https://github.com/Nihilnia/Nihilnia/blob/main/Gloria.gif" style="max-width:100%; height: 444px;"/>
+<img align="center" src="https://github.com/Nihilnia/Nihilnia/blob/main/Gloria.gif" style="max-width:100%; height: 444px; max-height:100%;"/>
 "Have you ever felt like, 'This is it, this is the project of a lifetime, I was made for this task'?<br/> No?
 
 
