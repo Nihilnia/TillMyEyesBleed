@@ -1,8 +1,6 @@
 <h1>Coding Journal</h1>
 <img align="center" src="https://github.com/Nihilnia/Nihilnia/blob/main/Gloria.gif" style=width:4444px;"/>
-<h4 align="center">"Have you ever felt like,<br/> 'This is it, this is the project of a lifetime, I was made for this task'?<br/> No?</h4>
-
-
+<p align="center">"𝙷𝚊𝚟𝚎 𝚢𝚘𝚞 𝚎𝚟𝚎𝚛 𝚏𝚎𝚕𝚝 𝚕𝚒𝚔𝚎,<br/>'𝚃𝚑𝚒𝚜 𝚒𝚜 𝚒𝚝, 𝚝𝚑𝚒𝚜 𝚒𝚜 𝚝𝚑𝚎 𝚙𝚛𝚘𝚓𝚎𝚌𝚝 𝚘𝚏 𝚊 𝚕𝚒𝚏𝚎𝚝𝚒𝚖𝚎, 𝙸 𝚠𝚊𝚜 𝚖𝚊𝚍𝚎 𝚏𝚘𝚛 𝚝𝚑𝚒𝚜 𝚝𝚊𝚜𝚔'?<br/>𝙽𝚘?</p>
 
 ## Daily Entries
 
