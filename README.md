@@ -1,4 +1,7 @@
 # Coding Journal
+
+<img align="center" src='https://github.com/Nihilnia/Nihilnia/blob/main/Gloria.gif' width = '584px'/>
+
 "Have you ever felt like, <br/> 'This is it, this is the project of a lifetime, I was made for this task'?<br/>
 No?"
 
