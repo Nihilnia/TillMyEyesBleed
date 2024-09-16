@@ -20,3 +20,28 @@
 
 ##### Cannot update the repo this days. But actively studying on VUE.
 [![Live on Twitch](https://github.com/Nihilnia/GithubBadges/blob/main/Repository.svg)](https://github.com/Nihilnia/LearningVUE)
+
+# To-Dos
+
+## CSS Units
+- Learn about different CSS units:
+  - **Absolute Units**: px, cm, mm, in, pt, pc
+  - **Relative Units**: em, rem, %, vw, vh, vmin, vmax
+- Understand how to use `px`, `em`, and `rem` for responsive designs.
+- Explore how viewport units (`vw`, `vh`) work in various screen sizes.
+- Learn how to apply CSS `clamp()` function for dynamic sizing.
+- Practice combining units in a real-world scenario like fluid typography.
+
+## Flexbox
+- Understand the **Flex Container** properties:
+  - `display: flex`
+  - `flex-direction`
+  - `justify-content`
+  - `align-items`
+  - `align-content`
+  - `flex-wrap`
+- Work with **Flex Items**:
+  - `flex-grow`, `flex-shrink`, `flex-basis`
+  - `align-self`
+- Practice creating flexible layouts using Flexbox for both rows and columns.
+- Create responsive designs using Flexbox and media queries.
