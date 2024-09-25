@@ -62,20 +62,15 @@ const pageUrl = "https://www.artstation.com/demark";
 
 async function processPage(url) {
   try {
-    // Launch Puppeteer
-    const browser = await puppeteer.launch({ headless: true });
+    const browser = await puppeteer.launch({ headless: "new" });
     const page = await browser.newPage();
 
-    // Set User-Agent to mimic a real browser
     await page.setUserAgent("Mozilla/5.0 (Windows NT 10.0; Win64; x64)");
 
-    // Navigate to the page
     await page.goto(url, { waitUntil: "networkidle2" });
 
-    // Scroll to the bottom of the page to load all images
     await autoScroll(page);
 
-    // Extract image URLs
     const imageUrls = await page.evaluate(() => {
       const imgElements = Array.from(document.querySelectorAll("img"));
       return imgElements.map((img) => img.src || img.getAttribute("data-src"));
