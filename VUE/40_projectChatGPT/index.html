@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vue Basics</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="styles.css" /> -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="app.js" defer></script>
+
+    <style>
+      .hover-task {
+        color: orange;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app">
+      <h2>{{welcomeMessage}}</h2>
+      <h6 v-once>{{aboutProject}}</h6>
+      <h3>Add your task:</h3>
+      <form>
+        <input type="text" v-model="task" />
+        <button type="submit" @click.prevent="addTask">Add your task</button>
+        <button type="submit" @click.prevent="resetTasks">
+          Reset all tasks
+        </button>
+      </form>
+
+      <div id="container-tasks">
+        <div
+          v-for="task in tasks"
+          :style="{color: task.situation == 'completed' ? 'green' : 'red'}"
+          @mouseover="handleHover"
+        >
+          {{task.ID}}- {{task.name}} ({{task.situation}})
+          <button @click="handleRemoveTask(task.ID)">Remove</button>
+          <button @click="handleCompleteTask(task.ID)">Completed</button>
+        </div>
+      </div>
+
+      <h2 v-if="filterCompleted.length > 0">Completed tasks</h2>
+      <div
+        id="container-completed-tasks"
+        v-for="task in filterCompleted"
+        :style="{color: task.situation == 'completed' ? 'green' : 'red'}"
+      >
+        {{task.ID}}- {{task.name}} ({{task.situation}})
+      </div>
+
+      <h2 v-if="filterPending.length > 0">Pending tasks</h2>
+      <div
+        id="container-pending-tasks"
+        v-for="task in filterPending"
+        :style="{color: task.situation == 'completed' ? 'green' : 'red'}"
+      >
+        {{task.ID}}- {{task.name}} ({{task.situation}})
+      </div>
+    </div>
+  </body>
+</html>
