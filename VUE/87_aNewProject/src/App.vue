@@ -5,11 +5,13 @@
     </header>
     <friend-contact
       v-for="friend in friends"
+      :id="friend.id"
       :key="friend.id"
       :name="friend.name"
       :emailAddress="friend.email"
       :phoneNumber="friend.phoneNumber"
       :isFavorite="friend.isFav"
+      @emit-favorite="changeFavorite"
     ></friend-contact>
   </section>
 </template>
@@ -37,6 +39,26 @@ export default {
         },
       ],
     };
+  },
+  methods: {
+    changeFavorite(friendID) {
+      let foundFriend = this.friends.find((f) => f.id == friendID);
+      if (foundFriend != null) {
+        console.log(`Friend found: ${foundFriend.name}`);
+        console.log(foundFriend);
+        foundFriend.isFav = !foundFriend.isFav;
+        console.log(
+          `${foundFriend.name}' s isFav value changed as: ${
+            foundFriend.isFav ? true : false
+          }`
+        );
+        console.log(this.friends);
+      }
+    },
+  },
+  mounted() {
+    console.log(`VUE app mounted.. And here is your friends object:`);
+    console.log(this.friends);
   },
 };
 </script>
