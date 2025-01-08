@@ -7,11 +7,13 @@
       name="Gloria"
       phone-number="123456"
       email-address="Gloria@AI.com"
+      is-favorite="1"
     ></friend-contact>
     <friend-contact
       name="Alt"
       phone-number="654321"
       email-address="Alt@rogueAI.com"
+      is-favorite="0"
     ></friend-contact>
   </section>
 </template>
