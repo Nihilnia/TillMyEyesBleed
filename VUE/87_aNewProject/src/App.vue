@@ -4,21 +4,42 @@
       <h1>Friends List</h1>
     </header>
     <friend-contact
-      name="Gloria"
-      phone-number="123456"
-      email-address="Gloria@AI.com"
-      is-favorite="1"
-    ></friend-contact>
-    <friend-contact
-      name="Alt"
-      phone-number="654321"
-      email-address="Alt@rogueAI.com"
-      is-favorite="0"
+      v-for="friend in friends"
+      :key="friend.id"
+      :name="friend.name"
+      :emailAddress="friend.email"
+      :phoneNumber="friend.phoneNumber"
+      :isFavorite="friend.isFav"
     ></friend-contact>
   </section>
 </template>
 
-<script></script>
+<script>
+import FriendContact from "./components/FriendContact.vue";
+export default {
+  components: { FriendContact },
+  data() {
+    return {
+      friends: [
+        {
+          id: 0,
+          name: "Gloria",
+          phoneNumber: "123456",
+          email: "Gloria@AI.com",
+          isFav: true,
+        },
+        {
+          id: 1,
+          name: "Alt",
+          phoneNumber: "654321",
+          email: "Alt@rogueAI.com",
+          isFav: false,
+        },
+      ],
+    };
+  },
+};
+</script>
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Jost&display=swap");

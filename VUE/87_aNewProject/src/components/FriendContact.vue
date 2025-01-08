@@ -1,7 +1,7 @@
 <template>
   <section>
     <li>
-      <h2>{{ name }} ({{ isFriendFavorite === "1" ? "favorite" : "" }})</h2>
+      <h2>{{ name }} {{ isFriendFavorite ? "(favorite)" : "" }}</h2>
       <button @click="toggleFav">Toggle Favorite</button>
       <button @click="toggleVisibility">
         {{ isDetailsVisible ? "hide details" : "show details" }}
@@ -16,16 +16,33 @@
 
 <script>
 export default {
-  props: ["name", "phoneNumber", "emailAddress", "isFavorite"],
+  //   props: ["name", "phoneNumber", "emailAddress", "isFavorite"],
+  props: {
+    name: {
+      type: String,
+      required: true,
+    },
+    phoneNumber: {
+      type: String,
+      required: true,
+    },
+    emailAddress: {
+      required: true,
+      type: String,
+    },
+    isFavorite: {
+      type: Boolean,
+      required: false, //unneccesary, props' default required value is false
+      default: false,
+      // validator: function (val) {
+      //   return val;
+      //   // return ["0", "1"].includes(val); Alternative and I liked it, Bc its better.
+      // },
+    },
+  },
   data() {
     return {
       isDetailsVisible: false,
-      friend: {
-        id: 0,
-        name: this.name,
-        phone: "123 456",
-        eMail: `${this.name}@AI.com`,
-      },
       isFriendFavorite: this.isFavorite,
     };
   },
@@ -34,11 +51,7 @@ export default {
       this.isDetailsVisible = !this.isDetailsVisible;
     },
     toggleFav() {
-      if (this.isFriendFavorite == "1") {
-        this.isFriendFavorite = "0";
-      } else {
-        this.isFriendFavorite = "1";
-      }
+      return (this.isFriendFavorite = !this.isFriendFavorite);
     },
   },
 };
