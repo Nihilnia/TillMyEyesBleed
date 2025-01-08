@@ -3,8 +3,16 @@
     <header>
       <h1>Friends List</h1>
     </header>
-    <friend-contact name="Gloria"></friend-contact>
-    <friend-contact name="Alt"></friend-contact>
+    <friend-contact
+      name="Gloria"
+      phone-number="123456"
+      email-address="Gloria@AI.com"
+    ></friend-contact>
+    <friend-contact
+      name="Alt"
+      phone-number="654321"
+      email-address="Alt@rogueAI.com"
+    ></friend-contact>
   </section>
 </template>
 
