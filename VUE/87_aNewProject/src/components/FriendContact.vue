@@ -13,6 +13,8 @@
         <li>{{ phoneNumber }}</li>
         <li>{{ emailAddress }}</li>
       </ul>
+      &nbsp;
+      <button @click="$emit('emit-remove', id)">Remove {{ name }}</button>
     </li>
   </section>
 </template>
@@ -47,7 +49,7 @@ export default {
       // },
     },
   },
-  emits: ["emit-favorite"],
+  emits: ["emit-favorite", "emit-remove"],
   // emits: {
   //   "emit-favorite": function (id) {
   //     if (id !== undefined && id !== null) {

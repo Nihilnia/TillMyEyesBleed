@@ -13,6 +13,7 @@
       :phoneNumber="friend.phoneNumber"
       :isFavorite="friend.isFav"
       @emit-favorite="changeFavorite"
+      @emit-remove="removeFriend"
     ></friend-contact>
   </section>
 </template>
@@ -44,11 +45,14 @@ export default {
     },
     getNewContact(ncName, ncPhone, ncEmail) {
       this.friends.push({
-        id: this.friends.length,
+        id: new Date().toISOString(),
         name: ncName,
         phoneNumber: ncPhone,
         email: ncEmail,
       });
+    },
+    removeFriend(ID) {
+      this.friends = this.friends.filter((f) => f.id !== ID);
     },
   },
   mounted() {
