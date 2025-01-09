@@ -2,7 +2,10 @@
   <section>
     <li>
       <h2>{{ name }} {{ isFavorite ? "(favorite)" : "" }}</h2>
-      <button @click="toggleFav">Toggle Favorite</button>
+      <button @click="toggleFav">
+        {{ isFavorite ? "Unfavorite" : "Make favorite" }}
+      </button>
+      &nbsp;
       <button @click="toggleVisibility">
         {{ isDetailsVisible ? "hide details" : "show details" }}
       </button>
@@ -44,6 +47,18 @@ export default {
       // },
     },
   },
+  emits: ["emit-favorite"],
+  // emits: {
+  //   "emit-favorite": function (id) {
+  //     if (id !== undefined && id !== null) {
+  //       // Allow `0` but disallow `undefined` or `null`
+  //       return true;
+  //     } else {
+  //       console.warn("Hey, emitted function did not pass ID");
+  //       return false;
+  //     }
+  //   },
+  // },
   data() {
     return {
       isDetailsVisible: false,

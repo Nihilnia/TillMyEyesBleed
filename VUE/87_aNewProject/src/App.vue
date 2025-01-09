@@ -1,5 +1,6 @@
 <template>
   <section>
+    <contact-form @emit-new-contact="getNewContact"></contact-form>
     <header>
       <h1>Friends List</h1>
     </header>
@@ -17,27 +18,13 @@
 </template>
 
 <script>
+import ContactForm from "./components/ContactForm.vue";
 import FriendContact from "./components/FriendContact.vue";
 export default {
-  components: { FriendContact },
+  components: { FriendContact, ContactForm },
   data() {
     return {
-      friends: [
-        {
-          id: 0,
-          name: "Gloria",
-          phoneNumber: "123456",
-          email: "Gloria@AI.com",
-          isFav: true,
-        },
-        {
-          id: 1,
-          name: "Alt",
-          phoneNumber: "654321",
-          email: "Alt@rogueAI.com",
-          isFav: false,
-        },
-      ],
+      friends: [],
     };
   },
   methods: {
@@ -54,6 +41,14 @@ export default {
         );
         console.log(this.friends);
       }
+    },
+    getNewContact(ncName, ncPhone, ncEmail) {
+      this.friends.push({
+        id: this.friends.length,
+        name: ncName,
+        phoneNumber: ncPhone,
+        email: ncEmail,
+      });
     },
   },
   mounted() {
@@ -96,7 +91,8 @@ header {
   list-style: none;
 }
 
-#app li {
+#app li,
+#app form {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   margin: 1rem auto;
   border-radius: 10px;
@@ -105,6 +101,10 @@ header {
   width: 90%;
   max-width: 40rem;
   list-style: none;
+}
+
+form div > div {
+  margin-bottom: 10px;
 }
 
 #app h2 {
