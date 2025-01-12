@@ -6,6 +6,7 @@
       :full-name="activeUser.name"
       :info-text="activeUser.description"
       :role="activeUser.role"
+      @change-role-type="changeRoleType"
     ></user-info>
   </div>
 </template>
@@ -29,6 +30,12 @@ export default {
         role: "admin",
       },
     };
+  },
+  methods: {
+    changeRoleType() {
+      this.activeUser.role =
+        this.activeUser.role === "admin" ? "author" : "admin";
+    },
   },
 };
 </script>
