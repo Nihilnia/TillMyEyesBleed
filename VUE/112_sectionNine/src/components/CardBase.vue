@@ -1,14 +1,27 @@
 <template>
   <section>
-    <header>
+    <header v-if="$slots.slotHeader">
       <slot name="slotHeader"></slot>
     </header>
-    <slot></slot>
+    <slot>
+      <h2>This is default content of the slot</h2>
+    </slot>
   </section>
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    console.log(`slotHeader slot`);
+    console.log(this.$slots.slotHeader);
+
+    console.log(`Default slot`);
+    console.log(this.$slots.default);
+
+    console.log(`All slots`);
+    console.log(this.$slots);
+  },
+};
 </script>
 
 <style scoped>

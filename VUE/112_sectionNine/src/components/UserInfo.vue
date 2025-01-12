@@ -1,6 +1,7 @@
 <template>
   <card-base>
-    <template v-slot:slotHeader>
+    <template #slotHeader>
+      <!-- shorthand for slots (v-slot) -->
       <h3>{{ fullName }}</h3>
       <base-badge
         :type="role"
