@@ -11,7 +11,7 @@
 <script>
 export default {
   emits: ["emit-select-element"],
-  inject: ["elements"],
+  props: ["elements"],
   methods: {
     selectElement(ID) {
       console.log("asdjasd");
