@@ -1,36 +1,21 @@
 <template>
   <section>
     <the-header title="Lone Digger"></the-header>
-    <stored-resources :resources="storedResources"></stored-resources>
+    <the-resources></the-resources>
   </section>
 </template>
 
 <script>
-import StoredResources from './components/learning-resources/StoredResources.vue';
 import TheHeader from './components/layouts/TheHeader.vue';
+import TheResources from './components/learning-resources/TheResources.vue';
 
 export default {
   components: {
-    StoredResources,
     TheHeader,
+    TheResources,
   },
   data() {
-    return {
-      storedResources: [
-        {
-          id: 'official-guide',
-          title: 'Official Guide',
-          description: 'The official VueJS website',
-          link: 'https://vuejs.org',
-        },
-        {
-          id: 'google',
-          title: 'Google',
-          description: 'Learn to use google',
-          link: 'https://google.com',
-        },
-      ],
-    };
+    return {};
   },
 };
 </script>

@@ -3,9 +3,10 @@
     <base-card>
       <header>
         <h3>{{ title }}</h3>
-        <base-button title="Remove"></base-button>
+        <base-button type="submit" mode="Gloria" @click="removeResource(id)">
+          Remove
+        </base-button>
       </header>
-
       <p>
         {{ description }}
       </p>
@@ -17,13 +18,11 @@
 </template>
 
 <script>
-import BaseButton from '../UI/BaseButton.vue';
 export default {
   props: ['id', 'title', 'description', 'link'],
-  components: { BaseButton },
+  inject: ['removeResource'],
 };
 </script>
-BaseButton
 
 <style scoped>
 li {

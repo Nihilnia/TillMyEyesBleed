@@ -1,10 +1,12 @@
 <template>
-  <button>{{ title }}</button>
+  <button :type="type" :class="mode">
+    <slot></slot>
+  </button>
 </template>
 
 <script>
 export default {
-  props: ['title'],
+  props: ['type', 'mode'],
 };
 </script>
 
@@ -28,6 +30,10 @@ button:active {
   background-color: transparent;
   color: #3a0061;
   border: none;
+}
+
+.Gloria {
+  background-color: #0c0c0d;
 }
 
 .flat:hover,

@@ -1,23 +1,23 @@
 <template>
   <section>
     <ul v-for="resource in resources" :key="resource.id">
-      <learning-resource
+      <learning-resources
         :id="resource.id"
         :title="resource.title"
         :description="resource.description"
         :link="resource.link"
-      ></learning-resource>
+      ></learning-resources>
     </ul>
   </section>
 </template>
 
 <script>
-import LearningResource from './LearningResource.vue';
+import LearningResources from './LearningResources.vue';
 
 export default {
-  props: ['resources'],
+  inject: ['resources'],
   components: {
-    LearningResource,
+    LearningResources,
   },
   data() {
     return {};
